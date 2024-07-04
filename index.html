@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <title>Catarina Cirilo Advocacia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body data-bs-theme="light">
+
+  <header>
+    <nav class="navbar-expand-lg navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./assets/logo.png" class="rounded" alt="Logo da cafeteria Sereneatto"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./assets/logo-mobile.png" class="rounded" alt="Logo da cafeteria Serenatto"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre__section">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="modo-noturno" checked>
+                    <label class="form-check-label" for="modo-noturno">Modo noturno</label>
+                  </div></a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+      <section class="banners banner-1 d-flex flex-column justify-content-center text-center">
+        <div class="banners-titulo bg-body-secondary py-5">
+          <h2 class="fw-bold">Sua confiança em boas mãos.</h2>
+          <h4> Boas-vindas ao Catarina Cirilo Advocacia! Um escritório acolhedor para atender às suas necessidades jurídicas.</h4>
+        </div>
+      </section>
+
+      <section class="py-5 justify-content-center text-center" id="sobre__section">
+        <h2 class="text-center fw-bold pb-1 mb-5">Sobre mim</h2>
+    
+        <div class="container my-3">
+            <div class="row justify-content-around">
+                <div class="col-md-6">
+                    <div class="d-flex flex-column">
+                        <p>
+                            <img src="assets/foto-sobre.png" alt="" class="rounded">
+                        </p>
+                        <span>
+                            " Como profissional, tenho como objetivo principal unir o conhecimento e a prática jurídica ao atendimento personalizado, diligente e atencioso,
+                            que resgata a confiança e a segurança que o cliente espera, junto das mais modernas e atualizadas ferramentas de trabalho. "
+                        </span>
+                        <span class="mt-2">
+                            - Catarina Cruz Cirilo
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div>
+                        <h1 class="my-2">
+                            Sobre a Profissional
+                        </h1>
+                        <p>
+                          Catarina Cruz Cirilo é advogada especialista em ___ pela ___ - ___ de São Paulo.
+                          Membra da Associação dos Advogados de São Paulo desde ___.
+                        </p>
+
+                        <h1 class="my-2">
+                          Carreira Profissional
+                        </h1>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem iusto, aut quae nisi sit ratione ex repellendus et voluptas omnis similique doloribus quia mollitia illo est placeat. Quaerat, iste soluta.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+      <section class="banners banner-2 d-flex flex-column justify-content-center">
+        <div class="banners-titulo bg-body-secondary text-center py-5">
+          <h2 class="fw-bold">Portas abertas para todos os públicos.</h2>
+          <h4>
+            Nosso atendimento é preparado para atender a clientes de todas as regiões do Brasil. Oferecemos suporte
+            personalizado e inclusivo, garantindo conforto e eficiência no seu atendimento jurídico online.
+          </h4>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <h2 class="text-center fw-bold pb-1">Nossos Serviços</h2>
+
+        <div class="container d-flex justify-content-around flex-wrap">
+
+          <div class="card m-4" style="width: 20rem;">
+            <img src="./assets/cafe-card.png" class="card-img-top"
+              alt="Balcão de padaria tradicional com alimentos diversos">
+            <div class="card-body">
+              <h5 class="card-title py-2 fw-bold">Serviço 1</h5>
+              <p class="card-text"> 
+                Atendimentos online para todo Brasil! Nossos serviços proporcionam conveniência e acessibilidade. 
+                Não importa onde você esteja, estamos prontos para ajudar você com as melhores soluções. 
+                Entre em contato conosco agora mesmo e experimente a qualidade de nosso atendimento!            
+            </p>
+              <a href="#" class="btn botao-padrao w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#modal-1">Quero detalhes</a>
+            </div>
+          </div>
+
+          <div class="card m-4" style="width: 20rem;">
+            <img src="./assets/buffet-card.png" class="card-img-top" alt="Mesa de buffet com alimentos diversos">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Serviço 2</h5>
+              <p class="card-text">
+                Atendimentos presenciais em São Paulo e Região! Nossos serviços estão disponíveis em horário comercial,
+                Estamos prontos para ajudar você com as melhores soluções.
+                Entre em contato conosco agora mesmo e experimente a qualidade de nosso atendimento presencial!            
+                </p>
+              <a href="#" class="btn botao-padrao w-100 fw-bold mt-3" data-bs-toggle="modal" data-bs-target="#modal-2">Quero detalhes</a>
+            </div>
+          </div>
+
+          <div class="card m-4" style="width: 20rem;">
+            <img src="./assets/delivery-card.png" class="card-img-top" alt="Caixa aberta armazenando comidas diversas">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Serviço 3</h5>
+              <p class="card-text">
+                Atendimento a pessoas físicas e jurídicas em diversas áreas de atuação. Atuamos em direito de família, sucessões, 
+                civil e especialmente do consumidor. 
+                Experimente a qualidade de nosso atendimento especializado!
+                Experimente a qualidade de nosso atendimento especializado!
+              </p>
+              <a href="#" class="btn botao-padrao w-100 fw-bold mt-3" data-bs-toggle="modal" data-bs-target="#modal-2">Quero detalhes</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="banners banner-3">
+      </section>
+
+      <section class="py-4 container">
+        <div class="row">
+          <div class="col-10 col-xl-8 mx-auto">
+            <div class="border border-2 rounded p-3">
+              <h3 class="fw-bold p-3">Entre em contato!</h3>
+              <form id="contato">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingNome" placeholder="Nome">
+                  <label for="floatingNome">Nome</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                  <label for="floatingEmail">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="number" class="form-control" id="floatingTelefone" placeholder="Telefone">
+                  <label for="floatingTelefone">Telefone</label>
+                </div>
+                <select class="form-select mb-3" aria-label="Default select example">
+                  <option selected>Preferência de contato:</option>
+                  <option value="1">WhatsApp</option>
+                  <option value="2">Email</option>
+                </select>
+                <label for="nivel-satisfacao" class="form-label">Nível de satisfação:</label>
+                <input type="range" class="form-range input-range" id="nivel-satisfacao">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Deseja receber novidades por email?
+                  </label>
+                </div>
+                <button type="button" class="btn botao-padrao w-100 fw-bold mt-3 py-3">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <footer class="text-center">
+        <ul class="p-1 ">
+          <li class="py-1">Agende seu atendimento!</li>
+          <li class="">seuemail@email.com</li>  
+          <li class="">
+            Atendimento de segunda a sexta-feira das 09:00 às 18:00.
+          </li>    
+        </ul>
+        <section class="container p-0 pb-0 mb-1">
+          <a class="btn" href="#!"><i class="bi bi-whatsapp"></i></a>
+          <a class="btn" href="#!"><i class="bi bi-instagram"></i></a>
+          <a class="btn" href="#!"><i class="bi bi-twitter"></i></a>
+        </section>
+        <div class="p-3">
+            2024 <i class="bi bi-c-circle"></i> Projeto fictício sem fins comerciais.
+        </div>
+    </footer>
+
+  </main>
+
+  <!-- Modal 1 -->
+
+  <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Defesa do Consumidor</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="./assets/balanca.png"  alt="Xícara de café preto">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, recusandae molestiae. Repudiandae eaque ipsa aliquid iste libero. Minima sit beatae, dignissimos optio laborum libero sint ducimus rem repellendus delectus vero.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ea qui quam ab quidem omnis quibusdam, quas blanditiis tempore tempora, et saepe perspiciatis cupiditate labore dolore incidunt dignissimos dolorem ut.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal 2 -->
+
+  <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Defesa do Consumidor</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="./assets/balanca.png"  alt="Xícara de café preto">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, recusandae molestiae. Repudiandae eaque ipsa aliquid iste libero. Minima sit beatae, dignissimos optio laborum libero sint ducimus rem repellendus delectus vero.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ea qui quam ab quidem omnis quibusdam, quas blanditiis tempore tempora, et saepe perspiciatis cupiditate labore dolore incidunt dignissimos dolorem ut.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
